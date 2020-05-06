@@ -1,0 +1,32 @@
+{
+    "name": "fallsantos/open-code",
+    "description": "Open Code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flávio Santos",
+            "email": "fallsantosdev@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://fallsantosdev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "//source"
+        }
+    },
+    "files": [
+        "source/Config.php",
+        "source/Helpers.php"
+    ],
+    "require": {
+        "ext-json": "^1.7",
+        "coffeecode/router": "^1.0",
+        "coffeecode/optimizer": "^2.0",
+        "phpmailer/phpmailer": "^6.1",
+        "league/plates": "^3.3",
+        "league/oauth2-facebook": "^2.0",
+        "league/oauth2-google": "^3.0",
+        "matthiasmullie/minify": "^1.3"
+    }
+}
